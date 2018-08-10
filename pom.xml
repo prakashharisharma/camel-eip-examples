@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.tutorialsdesk</groupId>
+	<artifactId>camel-eip-examples</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>camel-eip-examples</name>
+	<description>camel-eip-examples</description>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>1.8</java.version>
+	</properties>
+
+	<modules>
+		<module>camel-data-transformation</module>
+		<module>camel-eip-patterns</module>
+		<module>camel-file-component</module>
+		<module>camel-jetty-http</module>
+		<module>camel-routes</module>
+		<module>camel-using-beans</module>
+	</modules>
+
+</project>
